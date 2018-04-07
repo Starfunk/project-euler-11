@@ -14,7 +14,7 @@ struct GridPosition {
 }
 
 /*Turns each element in data_set into a GridPosition, recording value, row, and column information.
-//Outputs a vector where each element is a GridPosition. This is my way of creating a "2D" grid
+Outputs a vector where each element is a GridPosition. This is my way of creating a "2D" grid
 vector in one dimension.*/
 fn mapping(arr: &[usize] ) -> Vec<GridPosition> {
     let mut grid: Vec<GridPosition> = Vec::new();
